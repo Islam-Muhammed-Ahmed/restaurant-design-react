@@ -1,11 +1,6 @@
-.navbar {
-    position: fixed !important;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+nav.navbar.navbar-expand-lg {
+    background: var(--dark) !important;
+    height: 80px;
 }
 
 .navbar-dark .navbar-nav .nav-link {

@@ -3,6 +3,7 @@ import { $ } from "react-jquery-plugin";
 import { FaAnkh, FaBars } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import Logo from "../../assets/logo.png";
+
 import "./Nav.css";
 
 const Nav = () => {
@@ -45,7 +46,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark px-4 px-lg-5 py-3 py-lg-0">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent px-4 px-lg-5 py-3 py-lg-0">
         <NavLink to="/" className="navbar-brand p-0">
           <h1 className="text-warning m-0">
             <FaAnkh className="me-3 col-sm-me-0" />
