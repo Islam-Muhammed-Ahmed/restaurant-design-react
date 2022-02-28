@@ -1,6 +1,5 @@
 nav.navbar.navbar-expand-lg {
-    background: var(--dark) !important;
-    height: 80px;
+    background:var(--dark) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
