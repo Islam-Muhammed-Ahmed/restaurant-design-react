@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+
+Sitemap: http://restaurant-design-react.vercel.app/sitemap.xml
